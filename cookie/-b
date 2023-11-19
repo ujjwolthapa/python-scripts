@@ -1,0 +1,29 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Could not resolve host: cookies.txt
+* Closing connection 0
+curl: (6) Could not resolve host: cookies.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.13.194.140:80...
+* Connected to 10.13.194.140 (10.13.194.140) port 80 (#1)
+> GET / HTTP/1.1
+> Host: 10.13.194.140
+> User-Agent: curl/7.88.1
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Date: Tue, 14 Nov 2023 14:53:20 GMT
+< Server: Apache/2.4.41 (Ubuntu)
+< Set-Cookie: OBSID=88niif2s9mliceqiige1jvkg62; expires=Wed, 15-Nov-2023 14:53:20 GMT; Max-Age=86400; path=/; SameSite=Strict
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< Set-Cookie: OBSID=88niif2s9mliceqiige1jvkg62; expires=Wed, 15-Nov-2023 14:53:20 GMT; Max-Age=86400; path=/; SameSite=Strict
+< Vary: Accept-Encoding
+< Content-Length: 3648
+< Content-Type: text/html; charset=UTF-8
+< 
+{ [813 bytes data]
+ 22  3648   22   813    0     0   7072      0 --:--:-- --:--:-- --:--:--  7069100  3648  100  3648    0     0  30726      0 --:--:-- --:--:-- --:--:-- 30655
+* Connection #1 to host 10.13.194.140 left intact
